@@ -1,0 +1,59 @@
+body {
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin-left: 20px;
+}
+.white {
+  background-color: white;
+  width: 30vw;
+  height: 40vh;
+  border-radius: 1.5ch;
+  display: flex;
+  flex-direction: row;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.gap {
+  display: flex;
+  flex-direction: row;
+  background-image: url(/hehe.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 188px;
+}
+.yellow {
+  color: goldenrod;
+}
+.btna {
+  background-color: goldenrod;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+}
+.btnb {
+  background-color: white;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+}
+.none {
+  border: none;
+  background-color: transparent;
+}
+.zurag {
+  width: 100vw;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 90px;
+}
